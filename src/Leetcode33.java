@@ -48,3 +48,14 @@ public class Leetcode33 {
         return -1;
     }
 }
+
+/*
+4 5 6 7 8 2 3 4
+l     m       r
+
+
+num > mid and num < l   look right
+num > mid and num > l   look left
+num < mid and num > l   look left
+num < mid and num < l   look right
+ */
